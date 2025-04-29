@@ -12,6 +12,7 @@ We extend the PAAC (Popularity-Aware Alignment and Contrast) framework to better
 ## Datasets
 - Yelp
 - Gowalla
+- MOOC
 
 ## Acknowledgements
 The original research paper:
@@ -26,7 +27,12 @@ The original research paper:
 - FAISS-GPU == 1.7.2
 - Pandas == 1.3.4
 
-## LightGCN Backbone
+## Branches Information:
+
+- main branch implements Tempertaure Sclaing
+- popularity-ratio-sensitivty implements Popularity Ratio Sensitivity
+- meta-learning implements Gradient Reweighting and Meta Learning
+- mooc.ipynb has the code for Dataset preparation of MOOC
 
 For models using LightGCN as the backbone, you can run the following commands:
 
@@ -40,6 +46,11 @@ python PAAC_main.py --dataset_name gowalla --layers_list '[6]' --cl_rate_list '[
 
 ```bash
 python PAAC_main.py --dataset_name yelp2018 --layers_list '[5]' --cl_rate_list '[10]' --align_reg_list '[1e3]' --lambada_list '[0.8]' --gama_list '[0.8]'
+```
+
+### MOOC
+```bash
+python PAAC_main.py --dataset_name mooc --layers_list '[5]' --cl_rate_list '[10]' --align_reg_list '[1e3]' --lambada_list '[0.8]' --gama_list '[0.8]'
 ```
 
 ## Documentation
