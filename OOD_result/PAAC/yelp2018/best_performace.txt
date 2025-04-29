@@ -1,0 +1,152 @@
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.036403414706699604=====best_recall@20:0.028413772679725592====best_ndcg@20:0.024754597370529152
+ test_OOD_hr@20:0.036403   test_OOD_recall@20:0.028414   test_OOD_ndcg@20:0.024755
+ test_IID_hr@20:0.036403   test_IID_recall@20:0.028414   test_IID_ndcg@20:0.024755 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0416-021126
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.03588327149600098=====best_recall@20:0.027999981837639375====best_ndcg@20:0.024631117587425762
+ test_OOD_hr@20:0.035883   test_OOD_recall@20:0.028000   test_OOD_ndcg@20:0.024631
+ test_IID_hr@20:0.035883   test_IID_recall@20:0.028000   test_IID_ndcg@20:0.024631 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0416-022024
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.05061408664296049=====best_recall@20:0.04460322009499355====best_ndcg@20:0.032429341900199936
+ test_OOD_hr@20:0.050614   test_OOD_recall@20:0.044603   test_OOD_ndcg@20:0.032429
+ test_IID_hr@20:0.050614   test_IID_recall@20:0.044603   test_IID_ndcg@20:0.032429 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0416-023812
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.05216554304315231=====best_recall@20:0.045724396853475464====best_ndcg@20:0.03315125098433235
+ test_OOD_hr@20:0.052166   test_OOD_recall@20:0.045724   test_OOD_ndcg@20:0.033151
+ test_IID_hr@20:0.052166   test_IID_recall@20:0.045724   test_IID_ndcg@20:0.033151 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0416-171307
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.05390001957637215=====best_recall@20:0.04680662167005269====best_ndcg@20:0.03463503450317398
+ test_OOD_hr@20:0.053900   test_OOD_recall@20:0.046807   test_OOD_ndcg@20:0.034635
+ test_IID_hr@20:0.053900   test_IID_recall@20:0.046807   test_IID_ndcg@20:0.034635 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0416-193559
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.05718333422709491=====best_recall@20:0.0489061789779829====best_ndcg@20:0.03714489819306969
+ test_OOD_hr@20:0.057183   test_OOD_recall@20:0.048906   test_OOD_ndcg@20:0.037145
+ test_IID_hr@20:0.057183   test_IID_recall@20:0.048906   test_IID_ndcg@20:0.037145 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0417-095135
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.057619996645336194=====best_recall@20:0.049578031122445625====best_ndcg@20:0.03749875126659034
+ test_OOD_hr@20:0.057620   test_OOD_recall@20:0.049578   test_OOD_ndcg@20:0.037499
+ test_IID_hr@20:0.057620   test_IID_recall@20:0.049578   test_IID_ndcg@20:0.037499 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0417-152751
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.050280484971877884=====best_recall@20:0.0423041770785935====best_ndcg@20:0.03272554837493659
+ test_OOD_hr@20:0.050280   test_OOD_recall@20:0.042304   test_OOD_ndcg@20:0.032726
+ test_IID_hr@20:0.050280   test_IID_recall@20:0.042304   test_IID_ndcg@20:0.032726 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0419-122313
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.034954854184826564=====best_recall@20:0.0271986496161416====best_ndcg@20:0.022890187653429747
+ test_OOD_hr@20:0.034955   test_OOD_recall@20:0.027199   test_OOD_ndcg@20:0.022890
+ test_IID_hr@20:0.034955   test_IID_recall@20:0.027199   test_IID_ndcg@20:0.022890 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0419-140107
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.05644023747329933=====best_recall@20:0.048574199418310836====best_ndcg@20:0.036841976470863534
+ test_OOD_hr@20:0.056440   test_OOD_recall@20:0.048574   test_OOD_ndcg@20:0.036842
+ test_IID_hr@20:0.056440   test_IID_recall@20:0.048574   test_IID_ndcg@20:0.036842 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0419-180647
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.0563994580089237=====best_recall@20:0.048209638931538956====best_ndcg@20:0.03673081101984008
+ test_OOD_hr@20:0.056399   test_OOD_recall@20:0.048210   test_OOD_ndcg@20:0.036731
+ test_IID_hr@20:0.056399   test_IID_recall@20:0.048210   test_IID_ndcg@20:0.036731 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0420-110231
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.057280507663356496=====best_recall@20:0.049116863975573535====best_ndcg@20:0.03721562130767498
+ test_OOD_hr@20:0.057281   test_OOD_recall@20:0.049117   test_OOD_ndcg@20:0.037216
+ test_IID_hr@20:0.057281   test_IID_recall@20:0.049117   test_IID_ndcg@20:0.037216 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0420-131224
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.057023460131000625=====best_recall@20:0.04889589787208949====best_ndcg@20:0.03704590858332857
+ test_OOD_hr@20:0.057023   test_OOD_recall@20:0.048896   test_OOD_ndcg@20:0.037046
+ test_IID_hr@20:0.057023   test_IID_recall@20:0.048896   test_IID_ndcg@20:0.037046 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0420-193909
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.049590665914576296=====best_recall@20:0.041540484812118056====best_ndcg@20:0.03268911903739517
+ test_OOD_hr@20:0.049591   test_OOD_recall@20:0.041540   test_OOD_ndcg@20:0.032689
+ test_IID_hr@20:0.049591   test_IID_recall@20:0.041540   test_IID_ndcg@20:0.032689 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0420-215854
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.05738641867476928=====best_recall@20:0.04926955763256518====best_ndcg@20:0.03735661828017025
+ test_OOD_hr@20:0.057386   test_OOD_recall@20:0.049270   test_OOD_ndcg@20:0.037357
+ test_IID_hr@20:0.057386   test_IID_recall@20:0.049270   test_IID_ndcg@20:0.037357 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0421-063603
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.056660109942599=====best_recall@20:0.04921172412926201====best_ndcg@20:0.036880026187548966
+ test_OOD_hr@20:0.056660   test_OOD_recall@20:0.049212   test_OOD_ndcg@20:0.036880
+ test_IID_hr@20:0.056660   test_IID_recall@20:0.049212   test_IID_ndcg@20:0.036880 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0421-160821
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.8
+  best_hr@20:0.04488593078706266=====best_recall@20:0.03625031644085119====best_ndcg@20:0.029514414146398035
+ test_OOD_hr@20:0.044886   test_OOD_recall@20:0.036250   test_OOD_ndcg@20:0.029514
+ test_IID_hr@20:0.044886   test_IID_recall@20:0.036250   test_IID_ndcg@20:0.029514 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.8_0421-211211
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.3
+  best_hr@20:0.04721644673539713=====best_recall@20:0.03849817504156756====best_ndcg@20:0.03106831608865226
+ test_OOD_hr@20:0.047216   test_OOD_recall@20:0.038498   test_OOD_ndcg@20:0.031068
+ test_IID_hr@20:0.047216   test_IID_recall@20:0.038498   test_IID_ndcg@20:0.031068 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.3_0421-230453
+ 
+
+
+ ====layers:5===cl-rate:10===align_reg:1000.0===gamma:0.8====lambda2:0.3
+  best_hr@20:0.04398169757098641=====best_recall@20:0.03553319257391413====best_ndcg@20:0.029184707507758655
+ test_OOD_hr@20:0.043982   test_OOD_recall@20:0.035533   test_OOD_ndcg@20:0.029185
+ test_IID_hr@20:0.043982   test_IID_recall@20:0.035533   test_IID_ndcg@20:0.029185 
+  Resulst_path:OOD_result/PAAC/yelp2018/5_10_1000.0_0.8_0.3_0422-004956
+ 

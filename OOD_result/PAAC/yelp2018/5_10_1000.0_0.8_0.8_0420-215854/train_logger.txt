@@ -1,0 +1,126 @@
+[2025-04-20 21:58:54,640]        dataset_name =======> yelp2018            
+[2025-04-20 21:58:54,641]        dataset_path =======> OOD_Data            
+[2025-04-20 21:58:54,641]         result_path =======> OOD_result          
+[2025-04-20 21:58:54,641]         bpr_num_neg =======> 1                   
+[2025-04-20 21:58:54,641]               model =======> PAAC                
+[2025-04-20 21:58:54,641]               decay =======> 0.0001              
+[2025-04-20 21:58:54,641]                  lr =======> 0.001               
+[2025-04-20 21:58:54,641]          batch_size =======> 2048                
+[2025-04-20 21:58:54,641]         layers_list =======> [5]                 
+[2025-04-20 21:58:54,641]                 eps =======> 0.2                 
+[2025-04-20 21:58:54,641]        cl_rate_list =======> [10]                
+[2025-04-20 21:58:54,641]    temperature_list =======> [0.2]               
+[2025-04-20 21:58:54,641]                seed =======> 12345               
+[2025-04-20 21:58:54,641]      align_reg_list =======> [1e3]               
+[2025-04-20 21:58:54,641]        lambada_list =======> [0.8]               
+[2025-04-20 21:58:54,641]           gama_list =======> [0.8]               
+[2025-04-20 21:58:54,641]              device =======> 0                   
+[2025-04-20 21:58:54,641]           EarlyStop =======> 10                  
+[2025-04-20 21:58:54,641]            emb_size =======> 64                  
+[2025-04-20 21:58:54,641]           num_epoch =======> 30                  
+[2025-04-20 21:58:54,641]               topks =======> [20]                
+[2025-04-20 21:58:54,642]         temperature =======> 0.2                 
+[2025-04-20 21:58:54,642]             cl_rate =======> 10                  
+[2025-04-20 21:58:54,642]              layers =======> 5                   
+[2025-04-20 21:58:54,642]           align_reg =======> 1000.0              
+[2025-04-20 21:58:54,642]             lambda2 =======> 0.8                 
+[2025-04-20 21:58:54,642]               gamma =======> 0.8                 
+[2025-04-20 21:58:54,674]------Load Data-----
+[2025-04-20 21:58:59,039]num_users:31668   num_items:38048   density:0.129588%
+[2025-04-20 21:59:02,312]------Load Model-----
+[2025-04-20 22:02:11,321]epoch: 0, bpr_loss:0.692272 emb_loss:0.000611 cl_loss:77.126019 batch_loss:77.818902 align_loss:1700.483276 
+[2025-04-20 22:02:30,792]val_hr@100:0.030199   val_recall@100:0.021728   val_ndcg@100:0.021781   train_time:170s   test_tiem:19s
+[2025-04-20 22:02:30,793]Validation loss decreased (inf --> 0.030199).  Saving model ...
+[2025-04-20 22:04:59,816]epoch: 1, bpr_loss:0.689322 emb_loss:0.001224 cl_loss:75.448165 batch_loss:76.138711 align_loss:1661.958252 
+[2025-04-20 22:05:07,478]val_hr@100:0.033736   val_recall@100:0.025107   val_ndcg@100:0.023559   train_time:148s   test_tiem:7s
+[2025-04-20 22:05:07,478]Validation loss decreased (0.030199 --> 0.033736).  Saving model ...
+[2025-04-20 22:07:37,494]epoch: 2, bpr_loss:0.687629 emb_loss:0.001502 cl_loss:74.485299 batch_loss:75.174429 align_loss:1647.833374 
+[2025-04-20 22:07:45,177]val_hr@100:0.036514   val_recall@100:0.027793   val_ndcg@100:0.025010   train_time:149s   test_tiem:7s
+[2025-04-20 22:07:45,177]Validation loss decreased (0.033736 --> 0.036514).  Saving model ...
+[2025-04-20 22:10:14,745]epoch: 3, bpr_loss:0.685905 emb_loss:0.001741 cl_loss:73.943958 batch_loss:74.631603 align_loss:1640.187256 
+[2025-04-20 22:10:22,395]val_hr@100:0.038789   val_recall@100:0.030057   val_ndcg@100:0.026155   train_time:148s   test_tiem:7s
+[2025-04-20 22:10:22,395]Validation loss decreased (0.036514 --> 0.038789).  Saving model ...
+[2025-04-20 22:12:52,170]epoch: 4, bpr_loss:0.684147 emb_loss:0.001957 cl_loss:73.584052 batch_loss:74.270155 align_loss:1633.976440 
+[2025-04-20 22:12:59,766]val_hr@100:0.040231   val_recall@100:0.031490   val_ndcg@100:0.026981   train_time:149s   test_tiem:7s
+[2025-04-20 22:12:59,767]Validation loss decreased (0.038789 --> 0.040231).  Saving model ...
+[2025-04-20 22:15:28,563]epoch: 5, bpr_loss:0.682350 emb_loss:0.002159 cl_loss:73.314794 batch_loss:73.999304 align_loss:1630.730347 
+[2025-04-20 22:15:36,268]val_hr@100:0.041440   val_recall@100:0.032703   val_ndcg@100:0.027739   train_time:148s   test_tiem:7s
+[2025-04-20 22:15:36,268]Validation loss decreased (0.040231 --> 0.041440).  Saving model ...
+[2025-04-20 22:18:05,020]epoch: 6, bpr_loss:0.680523 emb_loss:0.002350 cl_loss:73.088184 batch_loss:73.771056 align_loss:1627.438843 
+[2025-04-20 22:18:12,685]val_hr@100:0.042690   val_recall@100:0.033983   val_ndcg@100:0.028551   train_time:148s   test_tiem:7s
+[2025-04-20 22:18:12,685]Validation loss decreased (0.041440 --> 0.042690).  Saving model ...
+[2025-04-20 22:20:42,954]epoch: 7, bpr_loss:0.678639 emb_loss:0.002532 cl_loss:72.915326 batch_loss:73.596497 align_loss:1624.839844 
+[2025-04-20 22:20:50,649]val_hr@100:0.043997   val_recall@100:0.035118   val_ndcg@100:0.029493   train_time:148s   test_tiem:7s
+[2025-04-20 22:20:50,650]Validation loss decreased (0.042690 --> 0.043997).  Saving model ...
+[2025-04-20 22:23:20,401]epoch: 8, bpr_loss:0.676720 emb_loss:0.002708 cl_loss:72.765977 batch_loss:73.445405 align_loss:1622.502808 
+[2025-04-20 22:23:28,060]val_hr@100:0.045155   val_recall@100:0.036255   val_ndcg@100:0.030182   train_time:149s   test_tiem:7s
+[2025-04-20 22:23:28,060]Validation loss decreased (0.043997 --> 0.045155).  Saving model ...
+[2025-04-20 22:25:56,830]epoch: 9, bpr_loss:0.674781 emb_loss:0.002876 cl_loss:72.629772 batch_loss:73.307428 align_loss:1620.894653 
+[2025-04-20 22:26:04,567]val_hr@100:0.046316   val_recall@100:0.037357   val_ndcg@100:0.030835   train_time:148s   test_tiem:7s
+[2025-04-20 22:26:04,567]Validation loss decreased (0.045155 --> 0.046316).  Saving model ...
+[2025-04-20 22:28:33,445]epoch: 10, bpr_loss:0.672810 emb_loss:0.003037 cl_loss:72.518665 batch_loss:73.194512 align_loss:1619.697144 
+[2025-04-20 22:28:41,203]val_hr@100:0.046150   val_recall@100:0.037207   val_ndcg@100:0.031060   train_time:148s   test_tiem:7s
+[2025-04-20 22:28:41,204]EarlyStopping counter: 1 out of 10
+[2025-04-20 22:31:09,833]epoch: 11, bpr_loss:0.670813 emb_loss:0.003195 cl_loss:72.421148 batch_loss:73.095156 align_loss:1618.028320 
+[2025-04-20 22:31:17,605]val_hr@100:0.046961   val_recall@100:0.038040   val_ndcg@100:0.031332   train_time:148s   test_tiem:7s
+[2025-04-20 22:31:17,606]Validation loss decreased (0.046316 --> 0.046961).  Saving model ...
+[2025-04-20 22:33:47,392]epoch: 12, bpr_loss:0.668792 emb_loss:0.003347 cl_loss:72.336878 batch_loss:73.009017 align_loss:1616.518555 
+[2025-04-20 22:33:55,092]val_hr@100:0.046827   val_recall@100:0.037926   val_ndcg@100:0.031464   train_time:149s   test_tiem:7s
+[2025-04-20 22:33:55,093]EarlyStopping counter: 1 out of 10
+[2025-04-20 22:36:23,870]epoch: 13, bpr_loss:0.666769 emb_loss:0.003494 cl_loss:72.260895 batch_loss:72.931158 align_loss:1615.151123 
+[2025-04-20 22:36:31,664]val_hr@100:0.047266   val_recall@100:0.038450   val_ndcg@100:0.031540   train_time:148s   test_tiem:7s
+[2025-04-20 22:36:31,664]Validation loss decreased (0.046961 --> 0.047266).  Saving model ...
+[2025-04-20 22:39:00,456]epoch: 14, bpr_loss:0.664754 emb_loss:0.003635 cl_loss:72.196499 batch_loss:72.864889 align_loss:1613.853271 
+[2025-04-20 22:39:08,149]val_hr@100:0.047426   val_recall@100:0.038639   val_ndcg@100:0.031648   train_time:148s   test_tiem:7s
+[2025-04-20 22:39:08,149]Validation loss decreased (0.047266 --> 0.047426).  Saving model ...
+[2025-04-20 22:41:36,908]epoch: 15, bpr_loss:0.662713 emb_loss:0.003774 cl_loss:72.134976 batch_loss:72.801462 align_loss:1612.678345 
+[2025-04-20 22:41:45,640]val_hr@100:0.048067   val_recall@100:0.039301   val_ndcg@100:0.031906   train_time:148s   test_tiem:8s
+[2025-04-20 22:41:45,640]Validation loss decreased (0.047426 --> 0.048067).  Saving model ...
+[2025-04-20 22:44:14,329]epoch: 16, bpr_loss:0.660658 emb_loss:0.003908 cl_loss:72.080415 batch_loss:72.744981 align_loss:1611.911743 
+[2025-04-20 22:44:22,026]val_hr@100:0.048141   val_recall@100:0.039519   val_ndcg@100:0.031913   train_time:148s   test_tiem:7s
+[2025-04-20 22:44:22,026]Validation loss decreased (0.048067 --> 0.048141).  Saving model ...
+[2025-04-20 22:46:50,575]epoch: 17, bpr_loss:0.658615 emb_loss:0.004039 cl_loss:72.030021 batch_loss:72.692675 align_loss:1610.488281 
+[2025-04-20 22:46:58,277]val_hr@100:0.048308   val_recall@100:0.039777   val_ndcg@100:0.031912   train_time:148s   test_tiem:7s
+[2025-04-20 22:46:58,277]Validation loss decreased (0.048141 --> 0.048308).  Saving model ...
+[2025-04-20 22:49:26,839]epoch: 18, bpr_loss:0.656563 emb_loss:0.004166 cl_loss:71.981280 batch_loss:72.642010 align_loss:1608.922241 
+[2025-04-20 22:49:34,549]val_hr@100:0.048640   val_recall@100:0.040142   val_ndcg@100:0.032029   train_time:148s   test_tiem:7s
+[2025-04-20 22:49:34,549]Validation loss decreased (0.048308 --> 0.048640).  Saving model ...
+[2025-04-20 22:52:03,040]epoch: 19, bpr_loss:0.654517 emb_loss:0.004291 cl_loss:71.942575 batch_loss:72.601383 align_loss:1607.795898 
+[2025-04-20 22:52:11,782]val_hr@100:0.048846   val_recall@100:0.040410   val_ndcg@100:0.032144   train_time:148s   test_tiem:8s
+[2025-04-20 22:52:11,782]Validation loss decreased (0.048640 --> 0.048846).  Saving model ...
+[2025-04-20 22:54:42,945]epoch: 20, bpr_loss:0.652493 emb_loss:0.004413 cl_loss:71.908974 batch_loss:72.565880 align_loss:1606.358887 
+[2025-04-20 22:54:50,741]val_hr@100:0.048963   val_recall@100:0.040603   val_ndcg@100:0.032130   train_time:151s   test_tiem:7s
+[2025-04-20 22:54:50,741]Validation loss decreased (0.048846 --> 0.048963).  Saving model ...
+[2025-04-20 22:57:21,962]epoch: 21, bpr_loss:0.650380 emb_loss:0.004532 cl_loss:71.869825 batch_loss:72.524737 align_loss:1604.895020 
+[2025-04-20 22:57:29,682]val_hr@100:0.049071   val_recall@100:0.040725   val_ndcg@100:0.032355   train_time:151s   test_tiem:7s
+[2025-04-20 22:57:29,682]Validation loss decreased (0.048963 --> 0.049071).  Saving model ...
+[2025-04-20 23:00:00,922]epoch: 22, bpr_loss:0.648330 emb_loss:0.004648 cl_loss:71.838037 batch_loss:72.491015 align_loss:1603.608765 
+[2025-04-20 23:00:08,698]val_hr@100:0.049090   val_recall@100:0.040803   val_ndcg@100:0.032328   train_time:151s   test_tiem:7s
+[2025-04-20 23:00:08,698]Validation loss decreased (0.049071 --> 0.049090).  Saving model ...
+[2025-04-20 23:02:42,060]epoch: 23, bpr_loss:0.646307 emb_loss:0.004762 cl_loss:71.810050 batch_loss:72.461119 align_loss:1602.145264 
+[2025-04-20 23:02:50,917]val_hr@100:0.049053   val_recall@100:0.040855   val_ndcg@100:0.032388   train_time:152s   test_tiem:8s
+[2025-04-20 23:02:50,917]EarlyStopping counter: 1 out of 10
+[2025-04-20 23:05:24,846]epoch: 24, bpr_loss:0.644244 emb_loss:0.004874 cl_loss:71.787203 batch_loss:72.436321 align_loss:1600.893555 
+[2025-04-20 23:05:32,840]val_hr@100:0.049220   val_recall@100:0.041051   val_ndcg@100:0.032433   train_time:153s   test_tiem:7s
+[2025-04-20 23:05:32,841]Validation loss decreased (0.049090 --> 0.049220).  Saving model ...
+[2025-04-20 23:08:09,715]epoch: 25, bpr_loss:0.642225 emb_loss:0.004984 cl_loss:71.755175 batch_loss:72.402384 align_loss:1599.714233 
+[2025-04-20 23:08:18,577]val_hr@100:0.049371   val_recall@100:0.041224   val_ndcg@100:0.032593   train_time:156s   test_tiem:8s
+[2025-04-20 23:08:18,578]Validation loss decreased (0.049220 --> 0.049371).  Saving model ...
+[2025-04-20 23:10:50,422]epoch: 26, bpr_loss:0.640098 emb_loss:0.005092 cl_loss:71.730263 batch_loss:72.375453 align_loss:1597.907715 
+[2025-04-20 23:10:58,133]val_hr@100:0.049588   val_recall@100:0.041468   val_ndcg@100:0.032686   train_time:151s   test_tiem:7s
+[2025-04-20 23:10:58,133]Validation loss decreased (0.049371 --> 0.049588).  Saving model ...
+[2025-04-20 23:13:29,755]epoch: 27, bpr_loss:0.638083 emb_loss:0.005199 cl_loss:71.714144 batch_loss:72.357426 align_loss:1596.243652 
+[2025-04-20 23:13:37,552]val_hr@100:0.049591   val_recall@100:0.041540   val_ndcg@100:0.032689   train_time:151s   test_tiem:7s
+[2025-04-20 23:13:37,552]Validation loss decreased (0.049588 --> 0.049591).  Saving model ...
+[2025-04-20 23:16:11,505]epoch: 28, bpr_loss:0.636037 emb_loss:0.005303 cl_loss:71.693951 batch_loss:72.335291 align_loss:1594.988770 
+[2025-04-20 23:16:19,247]val_hr@100:0.049037   val_recall@100:0.041058   val_ndcg@100:0.032557   train_time:153s   test_tiem:7s
+[2025-04-20 23:16:19,248]EarlyStopping counter: 1 out of 10
+[2025-04-20 23:18:50,262]epoch: 29, bpr_loss:0.633971 emb_loss:0.005406 cl_loss:71.669623 batch_loss:72.309000 align_loss:1593.414307 
+[2025-04-20 23:18:58,045]val_hr@100:0.049257   val_recall@100:0.041273   val_ndcg@100:0.032565   train_time:151s   test_tiem:7s
+[2025-04-20 23:18:58,045]EarlyStopping counter: 2 out of 10
+[2025-04-20 23:19:06,794]=======Best   performance=====
+val_hr@20:0.049591   val_recall@20:0.041540   val_ndcg@20:0.032689 
+[2025-04-20 23:19:14,501]=======Best   performance=====
+test_OOD_hr@20:0.049591   test_OOD_recall@20:0.041540   test_OOD_ndcg@20:0.032689 
+[2025-04-20 23:19:22,222]=======Best   performance=====
+test_IID_hr@20:0.049591   test_IID_recall@20:0.041540   test_IID_ndcg@20:0.032689 
