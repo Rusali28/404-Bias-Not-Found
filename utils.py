@@ -100,10 +100,23 @@ class EarlyStopping:
         torch.save(model.state_dict(), self.path + '/the_final_epoch.pt')
         self.val_loss_min = val_loss
 
+'''
+Popularity Ratio List that has been experimenting, by hardcoded:
+Popularity Ratio 
+0.5
+0.45
+0.4
+0.35
+0.3
+variable name is pop
+Just change the value of pop, accordingly to the ratio needed to be experimented with
+'''
+
 def split_bacth_items(items,popular):
     G1,G2=[],[]
     items_sorted=list(np.array(items)[np.argsort(np.array(popular)[items])])
-    num=int(len(items_sorted)/2)
+    pop = 0.5 # default baseline
+    num=int(len(items_sorted) * pop)
     G1.extend(items_sorted[0:num])
     G2.extend(items_sorted[num:])
     return np.array(G1),np.array(G2)
