@@ -60,7 +60,7 @@ python PAAC_main_Meta.py --dataset_name mooc --layers_list '[6]' --cl_rate_list 
 
 ## Documentation
 
-[Report](https://arxiv.org/pdf/2405.20718)
+[Report](https://drive.google.com/file/d/1EHjvZ3uSvGth_dkpOuARnGbdOgjSyfY0/view?usp=sharing)
 
 
 
