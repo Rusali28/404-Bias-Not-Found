@@ -6,8 +6,8 @@ We extend the PAAC (Popularity-Aware Alignment and Contrast) framework to better
 ## Key Contributions
 - Meta Learning & Gradient Weight Learning
 - Popularity Ratio Sensitivity
-- Adaptive Temperature Scaling111
-- Coursera Dataset
+- Adaptive Temperature Scaling
+- Extending Domain Beyond E-Commerce
 
 ## Datasets
 - Yelp
@@ -32,7 +32,7 @@ The original research paper:
 - main branch implements Tempertaure Scaling
 - popularity-ratio-sensitivty implements Popularity Ratio Sensitivity
 - meta-learning implements Gradient Reweighting and Meta Learning
-- mooc.ipynb has the code for Dataset preparation of MOOC
+- mooc implements the Extension eyon E-Commerce
 
 For models using LightGCN as the backbone, you can run the following commands:
 
