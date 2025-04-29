@@ -40,17 +40,22 @@ For models using LightGCN as the backbone, you can run the following commands:
 
 ```bash
 python PAAC_main_Gradient_Based.py --dataset_name gowalla --layers_list '[6]' --cl_rate_list '[5]' --align_reg_list '[50]' --lambada_list '[0.2]' --gama_list '[0.2]'
+python PAAC_main_Meta.py --dataset_name gowalla --layers_list '[6]' --cl_rate_list '[5]' --align_reg_list '[50]' --lambada_list '[0.2]' --gama_list '[0.2]'
+
 ```
 
 ### Yelp2018
 
 ```bash
 python PAAC_main_Gradient_Based.py --dataset_name yelp2018 --layers_list '[5]' --cl_rate_list '[10]' --align_reg_list '[1e3]' --lambada_list '[0.8]' --gama_list '[0.8]'
+python PAAC_main_Meta.py --dataset_name yelp2018 --layers_list '[6]' --cl_rate_list '[5]' --align_reg_list '[50]' --lambada_list '[0.2]' --gama_list '[0.2]'
+
 ```
 
 ### MOOC
 ```bash
 python PAAC_main_Gradient_Based.py --dataset_name mooc --layers_list '[5]' --cl_rate_list '[10]' --align_reg_list '[1e3]' --lambada_list '[0.8]' --gama_list '[0.8]'
+python PAAC_main_Meta.py --dataset_name mooc --layers_list '[6]' --cl_rate_list '[5]' --align_reg_list '[50]' --lambada_list '[0.2]' --gama_list '[0.2]'
 ```
 
 ## Documentation
