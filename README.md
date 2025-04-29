@@ -29,7 +29,7 @@ The original research paper:
 
 ## Branches Information:
 
-- main branch implements Tempertaure Sclaing
+- main branch implements Tempertaure Scaling
 - popularity-ratio-sensitivty implements Popularity Ratio Sensitivity
 - meta-learning implements Gradient Reweighting and Meta Learning
 - mooc.ipynb has the code for Dataset preparation of MOOC
